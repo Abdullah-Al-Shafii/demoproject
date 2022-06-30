@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1,2,3"
+    >
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/EligibleListSLId"
+            android:text="Sl no"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_column="1"
+            />
+        <TextView
+            android:id="@+id/EligibleListIdViewId"
+            android:text="Applicant's ID"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:layout_column="1"
+            />
+
+
+        <TextView
+            android:id="@+id/EligibleListNameViewId"
+            android:gravity="center"
+            android:layout_column="1"
+            android:text="Name"
+            android:textSize="15sp"
+            />
+
+    </TableRow>
+
+</TableLayout>

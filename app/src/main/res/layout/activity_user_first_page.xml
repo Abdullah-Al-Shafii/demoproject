@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserFirstPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryy"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:gravity="center"
+                android:text="@string/dashboard"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="39dp"
+                android:gravity="center"
+                android:text="@string/announcemwnt"
+                android:textColor="@color/colorLightText"
+                android:textSize="15sp"
+                />
+        </LinearLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/userApplyCardViewid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    app:cardCornerRadius="10dp"
+                    android:elevation="6dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/dashboarditem1background">
+
+                        <View
+                            android:layout_width="80dp"
+                            android:layout_height="0dp"
+                            android:background="@drawable/endviewbackground"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            />
+
+                        <ImageView
+                            android:id="@+id/iic"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginTop="12dp"
+                            android:background="@drawable/iconbackground"
+                            android:contentDescription="@string/app_name"
+                            android:padding="10dp"
+                            android:src="@drawable/applynow"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            />
+
+                        <TextView
+                            android:id="@+id/tt"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="80dp"
+                            android:text="Apply Now"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/iic"
+                            app:layout_constraintTop_toTopOf="@id/iic"
+                            />
+
+                        <TextView
+                            android:id="@+id/td"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Apply now online for the admission test"
+                            android:textColor="@color/colorLightText"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/tt"
+                            app:layout_constraintStart_toStartOf="@+id/tt"
+                            app:layout_constraintTop_toBottomOf="@id/tt"
+                            />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/userAdmitCardCardViewid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    app:cardCornerRadius="10dp"
+                    android:elevation="6dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/dashboarditem4background">
+
+                        <View
+                            android:layout_width="80dp"
+                            android:layout_height="0dp"
+                            android:background="@drawable/endviewbackground"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            />
+
+                        <ImageView
+                            android:id="@+id/iic5"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginTop="12dp"
+                            android:background="@drawable/iconbackground"
+                            android:contentDescription="@string/app_name"
+                            android:padding="10dp"
+                            android:src="@drawable/admitcardicon"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            />
+
+                        <TextView
+                            android:id="@+id/tt5"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="80dp"
+                            android:text="Admit Card"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/iic5"
+                            app:layout_constraintTop_toTopOf="@id/iic5"
+                            />
+
+                        <TextView
+                            android:id="@+id/td5"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Download your admission exam admit card if you are eligible"
+                            android:textColor="@color/colorLightText"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/tt5"
+                            app:layout_constraintStart_toStartOf="@+id/tt5"
+                            app:layout_constraintTop_toBottomOf="@id/tt5"
+                            />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/userAdmissionCardViewid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    app:cardCornerRadius="10dp"
+                    android:elevation="6dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/dashboarditem3background">
+
+                        <View
+                            android:layout_width="80dp"
+                            android:layout_height="0dp"
+                            android:background="@drawable/endviewbackground"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            />
+
+                        <ImageView
+                            android:id="@+id/iic1"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginTop="12dp"
+                            android:background="@drawable/iconbackground"
+                            android:contentDescription="@string/app_name"
+                            android:padding="10dp"
+                            android:src="@drawable/admissionicon"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            />
+
+                        <TextView
+                            android:id="@+id/tt1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="80dp"
+                            android:text="Admission Information"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/iic1"
+                            app:layout_constraintTop_toTopOf="@id/iic1"
+                            />
+
+                        <TextView
+                            android:id="@+id/td1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Know about admission requirements,procedure,exam system,exam date,exam time etc from here"
+                            android:textColor="@color/colorLightText"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/tt1"
+                            app:layout_constraintStart_toStartOf="@+id/tt1"
+                            app:layout_constraintTop_toBottomOf="@id/tt1"
+                            />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/userUniversityCardViewid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    app:cardCornerRadius="10dp"
+                    android:elevation="6dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/dashboarditem2background">
+
+                        <View
+                            android:layout_width="80dp"
+                            android:layout_height="0dp"
+                            android:background="@drawable/endviewbackground"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            />
+
+                        <ImageView
+                            android:id="@+id/iic2"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginTop="12dp"
+                            android:background="@drawable/iconbackground"
+                            android:contentDescription="@string/app_name"
+                            android:padding="10dp"
+                            android:src="@drawable/kuetlogo"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            />
+
+                        <TextView
+                            android:id="@+id/tt2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="80dp"
+                            android:text="Download result"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/iic2"
+                            app:layout_constraintTop_toTopOf="@id/iic2"
+                            />
+
+                        <TextView
+                            android:id="@+id/td2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Download your result after it is published"
+                            android:textColor="@color/colorLightText"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/tt2"
+                            app:layout_constraintStart_toStartOf="@+id/tt2"
+                            app:layout_constraintTop_toBottomOf="@id/tt2"
+                            />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/userEligibleListCardViewid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    app:cardCornerRadius="10dp"
+                    android:elevation="6dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/dashboarditem5background">
+
+                        <View
+                            android:layout_width="80dp"
+                            android:layout_height="0dp"
+                            android:background="@drawable/endviewbackground"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            />
+
+                        <ImageView
+                            android:id="@+id/iic3"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginTop="12dp"
+                            android:background="@drawable/iconbackground"
+                            android:contentDescription="@string/app_name"
+                            android:padding="10dp"
+                            android:src="@drawable/eligibleicon"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            />
+
+                        <TextView
+                            android:id="@+id/tt3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="80dp"
+                            android:text="Eligible List"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/iic3"
+                            app:layout_constraintTop_toTopOf="@id/iic3"
+                            />
+
+                        <TextView
+                            android:id="@+id/td3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Get the list of eligible candidates for admission test when it is published"
+                            android:textColor="@color/colorLightText"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/tt3"
+                            app:layout_constraintStart_toStartOf="@+id/tt3"
+                            app:layout_constraintTop_toBottomOf="@id/tt3"
+                            />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/userMeritListCardViewid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    app:cardCornerRadius="10dp"
+                    android:elevation="6dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/dashboarditem6background">
+
+                        <View
+                            android:layout_width="80dp"
+                            android:layout_height="0dp"
+                            android:background="@drawable/endviewbackground"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            />
+
+                        <ImageView
+                            android:id="@+id/iic4"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginTop="12dp"
+                            android:background="@drawable/iconbackground"
+                            android:contentDescription="@string/app_name"
+                            android:padding="10dp"
+                            android:src="@drawable/meriticon"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            />
+
+                        <TextView
+                            android:id="@+id/tt4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="80dp"
+                            android:text="Merit List"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/iic4"
+                            app:layout_constraintTop_toTopOf="@id/iic4"
+                            />
+
+                        <TextView
+                            android:id="@+id/td4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Get the merit list of the admission exam when it is published"
+                            android:textColor="@color/colorLightText"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/tt4"
+                            app:layout_constraintStart_toStartOf="@+id/tt4"
+                            app:layout_constraintTop_toBottomOf="@id/tt4"
+                            />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+
+</ScrollView>

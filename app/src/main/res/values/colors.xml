@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="ColorPrimary">#FFC50C</color>
+    <color name="ColorPrimaryDark">#E5B009</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="fblue">#3F5996</color>
+    <color name="tblue">#29C5F6</color>
+    <color name="gred">#D03E2F</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorPrimaryy">#E33435</color>
+    <color name="colorPrimaryDarkk">#E33435</color>
+    <color name="colorAccentt">#1A191E</color>
+    <color name="colorItemStart">#FEBD1B</color>
+    <color name="colorItemEnd">#E4A401</color>
+    <color name="colorItemStartt">#4D79FF</color>
+    <color name="colorItemEndd">#0039E4</color>
+    <color name="colorItemStarttt">#993399</color>
+    <color name="colorItemEnddd">#602060</color>
+    <color name="colorItemStartttt">#00B33C</color>
+    <color name="colorItemEndddd">#006622</color>
+    <color name="colorItemStarttttt">#FFA500</color>
+    <color name="colorItemEnddddd">#FF8C00</color>
+    <color name="colorItemStartttttt">#654321</color>
+    <color name="colorItemEndddddd">#C4A484</color>
+    <color name="colorEndBackground">#50FFFFFF</color>
+    <color name="colorLightText">#ECECEC</color>
+</resources>

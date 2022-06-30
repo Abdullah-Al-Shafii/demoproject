@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/ApplyNavigationId"
+        android:title="Apply Now"></item>
+
+    <item android:id="@+id/ProfileNavigationId"
+        android:title="Profile"></item>
+
+
+    <item android:id="@+id/PayFeesNavigationId"
+        android:title="Pay your fees"></item>
+
+    <item android:id="@+id/DownloadAdmitCardNavigationId"
+        android:title="Download Admit Card"></item>
+
+    <item android:id="@+id/ResultNavigationId"
+        android:title="Result"></item>
+
+    <item android:id="@+id/LogOutNavigationId"
+        android:title="Sign Out"></item>
+
+
+</menu>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Congratulation">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/congratulation"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="You have successfully applied for taking part in KUET admission test.You will be notified via email if you are eligible for the exam.You can also check it out from our app or website"
+        android:textSize="26sp"
+        android:textStyle="italic"
+
+        />
+</LinearLayout>

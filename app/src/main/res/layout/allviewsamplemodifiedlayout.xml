@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/studentsdataviewApplicationIDTextViewid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Application ID: 10101010"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textIsSelectable="true"
+        />
+
+    <TextView
+        android:id="@+id/studentsdataviewnameTextViewid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Name : abc"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textIsSelectable="true"
+        />
+    <TextView
+        android:id="@+id/studentsdataviewhscregistrationTextViewid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Hsc Registration Number : 1010"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textIsSelectable="true"
+        />
+
+    <TextView
+        android:id="@+id/studentsdataviewexamcentreTextViewid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Exam centre : D block"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:id="@+id/studentsdataviewpaymentstatusTextViewid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Payment Status : Paid"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textIsSelectable="true"
+        />
+    <TextView
+        android:id="@+id/studentsdataviewmeritpositionTextViewid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Merit position: Not yet publish"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textIsSelectable="true"
+        />
+
+
+
+</LinearLayout>

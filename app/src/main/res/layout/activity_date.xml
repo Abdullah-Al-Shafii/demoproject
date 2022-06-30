@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AA7C7C"
+    tools:context=".Date">
+
+    <TableRow
+        android:background="#3F51B5"
+        android:layout_marginTop="60dp"
+        >
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Title"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Date"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+    </TableRow>
+
+    <TableRow
+     android:background="@color/white"
+        >
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Application starting date"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="24 April , 2021 (9.00 AM)"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:background="@color/white"
+        >
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Application closing date"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="08 May , 2021 (5.00 PM)"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:background="@color/white"
+        >
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Publication of Eligible Candidates"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="02 June , 2021"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:background="@color/white"
+        >
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Admission Test"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="12 August , 2021\n10:00 am - 12:30 pm"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+    </TableRow>
+
+
+</TableLayout>

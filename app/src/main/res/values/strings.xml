@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Demoproject</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="dashboard">Dashboard</string>
+    <string name="announcemwnt">Your all necessary components for applying and knowing about admission as well as university is here</string>
+    <string name="adminannouncement">All necessary component needed to complete your work is given here</string>
+    <string name="emailsubject">Congratulating for being listed in KUET admission eligible list</string>
+
+    <string name="emailmessage">Congratulation!!!You have been selected as one of the eligible candidates for KUET admission test.\nYou can now download your admit card from our app or,website.Exam will be held on 12/06/21,10AM-12:30PM.</string>
+    <string name="examsystem">
+
+       Examination will be held for 3 hour duration and question will be set from 4 subjects these are physics chemistry math and english. Total mark for the exam is 500. the exam type is written.here is the mark distribution.\n\n1.Physics – 15 questions – 150 marks\n2.Chemistry – 15 questions – 150 marks\n3.Math – 15 questions – 150 marks\n4.English – 10 questions – 50 marks\n
+
+
+    </string>
+
+    <string name="history">
+
+     Khulna University of Engineering and Technology has a background of historical significance. Although this institution has completed an era as a university, its laying foundation began 49 years ago. This university was established in 1967 as ‘Khulna Engineering College’ under the University of Rajshahi. But during the period of the liberation war, the development activities of the Erstwhile Engineering College was suspended. After the Independence of Bangladesh in the year of 1971, the development works were started again in swing full. Overcoming all the constraints, the academic activities of the institute were virtually started from June 3, 1974, as per special direction of the Father of the Nation, Bangabandhu Sheikh Mujibur Rahman. Despite some limitations, the college was affiliated as a faculty of Engineering under Rajshahi University. The academic and administrative activities were controlled by the university authority and the Ministry of Education, respectively. The physical infrastructures were constructed by the public works department, while teacher recruitment was accomplished through Public Service Commission. Owing to multiple authorities, the co-ordination became complicated and hence the college authority faced many problems to run it smoothly. Even the admission of new students was stopped in one session due to the scarcity of teachers. In these circumstances, through a collective effort organized by the students, teachers, officers, staff and professional bodies, the four Engineering Colleges of the country including Khulna Engineering College were converted into autonomous Institutes named Bangladesh Institute of Technology (BIT) from July 1, 1986.
+
+  BIT, Khulna became Khulna University of Engineering and Technology with the other BITs as per act passed by the National Parliament effective from September 1, 2003.
+
+
+
+    </string>
+
+    <string name="Halls">There are seven residential halls (one female, six male). The administrative heads of a hall are its provost and assistant provosts. Usually, the halls have a single provost and one or more assistant provosts.
+        \nThe residential halls provide facilities for the students, for example, hall library, prayer room, TV and recreational room including daily newspapers and magazines, etc. Generally, four students live in a room except for the two-seat rooms in Amar Ekushey Hall arranged for graduate students. These halls have dining rooms (Amar Ekushey Hall has two dining rooms) where monthly prepaid lunch and dinner are offered to the students.
+        \n1.Bangabandhu Shiekh Mujibur Rahman Hall (named after founding leader of Bangladesh, Sheikh Mujibur Rahman)
+        \n2.Amar Ekushey Hall (named in memory of martyrs of the Language Movement )
+        \n3.Fazlul Haque Hall (named after the 1st Prime Minister of Bengal- Sher-e-Bangla A. K. Fazlul Huq)
+        \n4.Lalan Shah Hall (named after the Lalon Fokir, Lalon)
+        \n5.Khan Jahan Ali Hall (named after Muslim Sufi Saint, Khan Jahan Ali)
+        \n6.Dr. M.A. Rahsid Hall (named after M. A. Rashid, the first vice-chancellor of BUET)
+        \n7.Rokeya Hall (named after Begum Rokeya Social activist, writer, Muslim feminist)
+
+
+
+    </string>
+
+    <string-array name="Boards">
+        <item>select a board</item>
+        <item>Dhaka</item>
+        <item>Cumilla</item>
+        <item>Chittagong</item>
+        <item>Rajshahi</item>
+        <item>Barishal</item>
+        <item>Sylhet</item>
+        <item>Dinajpur</item>
+        <item>Jessore</item>
+        <item>Madrasha</item>
+        <item>Vocational</item>
+    </string-array>
+
+
+    <string-array name="HSCpassingyears">
+        <item>select year</item>
+        <item>2020</item>
+    </string-array>
+
+    <string-array name="SSCpassingyears">
+        <item>select year</item>
+        <item>2018</item>
+        <item>2017</item>
+    </string-array>
+
+
+    <string-array name="Information">
+        <item>ভর্তি পরীক্ষায় অংশগ্রহনের  জন্য আবেদনের যোগ্যতা</item>
+        <item>Admission Procedure</item>
+        <item>Admission Exam System</item>
+        <item>Admission Result</item>
+        <item>Application and admission time</item>
+        <item>Departments</item>
+        <item>Halls</item>
+        <item>History</item>
+        <item>Grading System</item>
+        <item>FAQs</item>
+        <item>Go to website</item>
+        <item>About the app</item>
+    </string-array>
+
+    <string name="RequirementsforAdmissionTest">
+            ভর্তি পরীক্ষায় অংশগ্রহনের  জন্য আবেদনের যোগ্যতা:
+       \n \n
+    ১. প্রার্থীকে অবশ্যই বাংলাদেশের নাগরিক হতে হবে।
+        \n
+    ২. প্রার্থীকে ২০২০ইং  সালে উচ্চ মাধ্যমিক বা সমমানের পরীক্ষায়  কমপক্ষে জি.পি.এ ৪.০০ পেতে হবে।
+        \n
+    ৩.বাংলাদেশের যেকোনো মাধ্যমিক ও  উচ্চ মাধ্যমিক  শিক্ষাবোর্ড থেকে ২০১৭ বা ২০১৮ইং  কমপক্ষে জি.পি.এ ৪.০০ পেতে হবে।
+        \n
+    ৪.বাংলাদেশের যেকোনো মাধ্যমিক ও  উচ্চ মাধ্যমিক  শিক্ষাবোর্ড থেকে গণিত,পদার্থবিজ্ঞান ,রসায়ন ,ইংরেজীতে মোট ২০.০০ গ্রেড পয়েন্টার
+       মধ্যে ২০.০০ পেতে হবে।
+
+        \n
+    ৫.যোগ্য আবেদনকারীদের হতে গণিত,পদার্থবিজ্ঞান ,রসায়ন ,ইংরেজীতে মোট নম্বরের ভিত্তিতে প্রথম ৩০,০০০ জনকে মূল পরীক্ষার জন্য বাছাই করা হবে।
+    </string>
+
+</resources>

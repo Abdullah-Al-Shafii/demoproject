@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/SSCInformationDrawLayoutId"
+    android:background="@drawable/backgroundgradient"
+    tools:context=".profileActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your SSC Examination Information"
+        android:textSize="20dp"
+        android:layout_marginBottom="28dp"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        >
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/sscrolltextField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="SSC Roll Number"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/SSCRollNumberEditTextId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@null"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        >
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/sscregistrationtextField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="SSC Registration Number"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/SSCRegistrationNumberEditTextId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@null"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp"
+            >
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/sscboardtextField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="SSC board"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.reginald.editspinner.EditSpinner
+                    android:id="@+id/sscboardspinnerid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:dropDownDrawable="@drawable/spinnericon"
+                    app:dropDownDrawableSpacing="15dp"
+                    app:dropDownDrawableWidth="28dp"
+                    app:dropDownDrawableHeight="39dp"
+                    android:background="@null"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp"
+            >
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/hscpassingyeartextField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="SSC Passing year"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                >
+                <com.reginald.editspinner.EditSpinner
+                    android:id="@+id/sscpassingyearspinnerid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:dropDownDrawable="@drawable/spinnericon"
+                    app:dropDownDrawableSpacing="15dp"
+                    app:dropDownDrawableWidth="28dp"
+                    app:dropDownDrawableHeight="39dp"
+                    android:background="@null"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp"
+            >
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/hscgpatextField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="SSC G.P.A."
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/SSCGPAEditTextId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@null"
+                />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/nextbutton1id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:layout_margin="16dp"
+                android:contentDescription="Go to Next"
+                app:srcCompat="@drawable/forwardarrowicon"
+                />
+
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigationViewId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:menu="@menu/navigationdrawermenu"
+        android:layout_gravity="start"
+        >
+    </com.google.android.material.navigation.NavigationView>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

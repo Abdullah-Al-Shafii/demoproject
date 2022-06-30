@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OtherInformationActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:orientation="vertical"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose your gender"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp"
+        />
+    <RadioGroup
+        android:id="@+id/genderRadioGroupId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        >
+        <RadioButton
+            android:id="@+id/maleRadioButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_margin="8dp"
+            />
+        <RadioButton
+            android:id="@+id/femaleRadioButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="8dp"
+           android:layout_marginBottom="20dp"
+            />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose your group for exam"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        />
+
+    <RadioGroup
+        android:id="@+id/groupRadioGroupId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        >
+        <RadioButton
+            android:id="@+id/kagroupRadioButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ka"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_margin="8dp"
+            />
+        <RadioButton
+            android:id="@+id/khagroupRadioButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kha"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="20dp"
+            />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose your quota"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        />
+
+    <RadioGroup
+        android:id="@+id/quotaRadioGroupId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        >
+        <RadioButton
+            android:id="@+id/generalquotaRadioButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="General"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_margin="8dp"
+            />
+        <RadioButton
+            android:id="@+id/tribequotaRadioButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tribe"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="20dp"
+            />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/otherinformationbuttonid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Go to Next"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
+</ScrollView>

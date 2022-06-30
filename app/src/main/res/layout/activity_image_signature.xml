@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImageSignatureActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+   >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Image"
+        android:id="@+id/chooseImageButtonId"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        />
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/UploadImageviewId"
+        />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/imageprogressBarId"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Image"
+        android:id="@+id/UploadmagebuttonId"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        />
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF22"
+        android:text="image will be jpg and max 100 KB.Size 300*300 px"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Signature"
+        android:id="@+id/chooseSignatureButtonId"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        />
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:id="@+id/UploadSignatureviewId"
+        />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/signatureprogressBarId"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Signature"
+        android:id="@+id/UploadSignaturebuttonId"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        />
+
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF22"
+        android:text="signature will be jpg and max 80 KB.Size 300*80 px"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:id="@+id/imagesignaturebuttonid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Go to Next"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
+
+</ScrollView>

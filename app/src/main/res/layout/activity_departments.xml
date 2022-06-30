@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".Departments">
+
+    <TableRow
+        android:weightSum="2"
+        android:background="#922B2C2C"
+        android:layout_marginTop="60dp"
+        >
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:text="Departments"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="No of students"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+    </TableRow>
+
+
+
+    <TableRow
+        android:weightSum="2"
+        android:background="@color/white"
+        >
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Electrical and Electronic Engineering"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="120"
+            android:textStyle="bold"
+            />
+
+    </TableRow>
+
+
+
+    <TableRow
+        android:weightSum="2"
+        android:background="@color/white"
+        >
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Computer Science and Engineering"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="120"
+            android:textStyle="bold"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:weightSum="2"
+        android:background="@color/white"
+        >
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Mechanical Engineering"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="120"
+            android:textStyle="bold"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:weightSum="2"
+        android:background="@color/white"
+        >
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Civil Engineering"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="120"
+            android:textStyle="bold"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:weightSum="2"
+        android:background="@color/white"
+        >
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Electronics and Communication Engineering"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="60"
+            android:textStyle="bold"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:weightSum="2"
+        android:background="@color/white"
+        >
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Industrial Engineering and Management"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="60"
+            android:textStyle="bold"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:weightSum="2"
+        android:background="@color/white"
+        >
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Biomedical Engineering"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="30"
+            android:textStyle="bold"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:weightSum="2"
+        android:background="@color/white"
+        >
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Materials Science and Engineering"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="60"
+            android:textStyle="bold"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:weightSum="2"
+        android:background="@color/white"
+        >
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Energy Science and Engineering"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="30"
+            android:textStyle="bold"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:weightSum="2"
+        android:background="@color/white"
+        >
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Architecture"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="40"
+            android:textStyle="bold"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:weightSum="2"
+        android:background="@color/white"
+        >
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Chemical Engineering"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="30"
+            android:textStyle="bold"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:weightSum="2"
+        android:background="@color/white"
+        >
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Mechatronics Engineering"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="30"
+            android:textStyle="bold"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:weightSum="2"
+        android:background="@color/white"
+        >
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Urban and Regional Planning"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="30"
+            android:textStyle="bold"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:weightSum="2"
+        android:background="@color/white"
+        >
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Building Engineering and Construction Management"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="60"
+            android:textStyle="bold"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:weightSum="2"
+        android:background="@color/white"
+        >
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Textile Engineering"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="60"
+            android:textStyle="bold"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:weightSum="2"
+        android:background="@color/white"
+        >
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Leather Engineering"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="60"
+            android:textStyle="bold"
+            />
+
+    </TableRow>
+
+
+
+
+
+</TableLayout>
